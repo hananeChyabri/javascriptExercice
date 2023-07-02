@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles/form2.css">
+</head>
+<body>
+
+    <div id="inscription">
+      
+     
+            <form method="post" enctype="multipart/form-data" action="" name="add" class="big-form">
+
+            <fieldset>
+                    <legend> Parent</legend>
+                <div>
+                    <label for="name">Nom :</label>
+                    <input id="name" type="text" name="name">
+                </div>
+              
+                <div>
+                    <label for="name">prenom :</label>
+                    <input id="name" type="text" name="name">
+                </div>
+             
+                <div>
+                    <label for="date">Date de naissance :</label>
+                    <input  id="date" type="date" name="date">
+                </div>
+                </form>
+
+            </fieldset>
+            <fieldset>
+                <legend> enfant 1 </legend>
+                        <div>
+                            <label for="name">Nom :</label>
+                            <input id="name" type="text" name="name">
+                        </div>
+                      
+                        <div>
+                            <label for="prenom">prenom :</label>
+                            <input id="prenom" type="text" name="name">
+                        </div>
+                     
+                        <div>
+                            <label for="date">Date de naissance :</label>
+                            <input  id="date" type="date" name="date">
+                        </div>
+            </fieldset>
+                        <div id="childs"></div>
+                        <div>
+                            <button type="submit">Enregistrer</button>
+                            <button type="reset">Annuler</button>
+                            <button id="addChild">Ajouter un enfant</button>
+                        </div>
+                        </form>
+        
+                   
+                </div>
+           
+              <script src="script.js"></script>  
+</body>
+</html>
